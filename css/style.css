@@ -8,8 +8,8 @@ body{
 
 .flexible-container{
     display: flex;
-    margin-bottom: 50px;
-    background-image:url() ;
+    height: 80%;
+    
   
 }
 .top-banner{
@@ -51,13 +51,22 @@ h1{
 
 /* Experiences Area */
 
+
+.experiences{
+    background-image: url(../image/exp-bg.png);
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+}
+
+
 #skill-item-pro{
     background-color: white;
     width: 40%;
     margin-left: 5%;
     margin-right: 5%;
-    border: 5px solid blue;
+    border-left: 5px solid blue;
     padding: 30px;
+    
     box-shadow: 5px 7px 40px gray;
 }
 
@@ -65,8 +74,9 @@ h1{
     width: 40%;
     margin-left: 5%;
     margin-right: 5%;
-    border: 5px solid orange;
+    border-left: 5px solid orange;
     padding: 30px;
+    
     box-shadow: 5px 7px 40px gray;
 }
 
@@ -76,12 +86,14 @@ h1{
 
 .experiences-title{
     text-align: center;
-    margin-bottom: 70px;
+    margin-top: 50px;
+    
 }
 
 .footer{
     background-color: rgba(0, 0, 0, 0.842);
-    padding: 30px;
+    padding: 20px;
+    height: 80px;
     color: white;
     font-size: 20px;
     text-align: center;
